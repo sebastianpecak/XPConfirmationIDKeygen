@@ -1,0 +1,17 @@
+XP Confirmation ID Keygen (Linux CLI) - Quick Usage
+
+1) Build
+   make
+
+2) Generate confirmation ID from argument
+   ./xpconfirm_cli "334481558826870862843844566221823392794862875658221"
+
+3) Generate confirmation ID from standard input
+   echo "334481558826870862843844566221823392794862875658221" | ./xpconfirm_cli
+
+4) Clean build output
+   make clean
+
+Notes:
+- You can include spaces or dashes in the installation ID.
+- On invalid input, the tool prints an error message to stderr.
